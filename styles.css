@@ -21,6 +21,7 @@ p{
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
+  color:white;
   background-color: red;
   float: left;
   border: none;
