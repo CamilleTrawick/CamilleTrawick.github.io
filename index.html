@@ -5,13 +5,28 @@
   <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Our Team')">Our Team</button>
+  <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
 </div>
 
+<!-- Tab content -->
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>This is where the information about the team goes.</p>
+</div>
+
+<div id="Our Team" class="tabcontent">
+  <h3>Our Team</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>This is where our contact info goes.</p>
+</div>
 
 </head>
 <body>
