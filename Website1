@@ -2,7 +2,11 @@
 <html>
 <body>
 
-<h1style=color:red font-family=verdana>Lake Travis Speech and Debate</h1>
+h1{
+	color:red;
+	font-family:verdana;
+}
+<h1>Lake Travis Speech and Debate</h1>
 <h2>Our Team</h2>
 <p>Here is where the description of the team goes.</p>
 
