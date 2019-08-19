@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<style>
 h1{
-	color:red;
+	color: red;
 	font-family:verdana;
 }
 </head>
+</style>
 <body>
 <h1>Lake Travis Speech and Debate</h1>
 <h2>Our Team</h2>
@@ -14,3 +15,4 @@ h1{
 
 </body>
 </html>
+
