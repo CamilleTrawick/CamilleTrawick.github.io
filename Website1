@@ -36,16 +36,14 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: red;}
 </style>
 </head>
 <body>
 
-<h2>Hoverable Dropdown</h2>
-<p>Move the mouse over the button to open the dropdown menu.</p>
 
 <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
+  <button class="dropbtn">Resources</button>
   <div class="dropdown-content">
     <a href="#">Resources</a>
     <a href="#">Tournaments</a>
@@ -67,4 +65,3 @@ h1{
 
 </body>
 </html>
-
