@@ -1,4 +1,4 @@
-
+<style>
 h1{
   color: red;
   font-family: helvatica;
@@ -10,6 +10,13 @@ h2{
 
 p{
   font-family: helvetica;
+}
+
+{box-sizing: border-box}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
 }
 
 /* Style the tab */
@@ -49,3 +56,4 @@ p{
   border: 1px solid #ccc;
   border-top: none;
 }
+</style>
