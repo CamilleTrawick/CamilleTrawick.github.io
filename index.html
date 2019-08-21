@@ -1,55 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=2">
-  <link href="styles.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width">
+	<title>Lake Travis Speech and Debate</title>
+	<link href="CSS/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
+
 <body>
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
-  <button class="tablinks" onclick="openTab(event, 'Our Team')">Our Team</button>
-  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-  <button class="tablinks" onclick="openTab(event, 'Photos')">Photos</button>
-  <button class="tablinks" onclick="openTab(event, 'Blogs')">Blogs</button>
-  <button class="tablinks" onclick="openTab(event, 'Resources')">Resources</button>
-</div>
-
-<!-- Tab content -->
-<div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <p><h1>Lake Travis Speech and Debate</h1>
-<h2>Info</h2>
-<p>Whatever you want to be here!</p>
-</div>
-
-<div id="Our Team" class="tabcontent">
-  <h3>Our Team</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>This is where our contact info goes.</p>
-</div>
-
-
-<script>
-function openTab(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-</script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a> class="navbar-brand" href="index.html"><img src=LTHS Speech and Debate_07-15.jpg </a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+   <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="resource.html">Resources</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="donate.html">Donate</a>
+      </li>
+      
+   	</ul>
+	<script src="JS/script.js">
+	</script>
+</body>
 
 </html>
