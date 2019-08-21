@@ -11,12 +11,6 @@ h2{
 p{
   font-family: helvetica;
 }
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
 
 /* Style the tab */
 .tab {
@@ -27,7 +21,7 @@ p{
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  color:white;
+
   background-color: red;
   float: left;
   border: none;
