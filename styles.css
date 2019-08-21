@@ -11,12 +11,11 @@ h2{
 p{
   font-family: helvetica;
 }
-
-{box-sizing: border-box}
-body, html {
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
   height: 100%;
-  margin: 0;
-  font-family: helvetica;
 }
 
 /* Style the tab */
