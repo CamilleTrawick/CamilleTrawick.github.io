@@ -33,21 +33,20 @@
 </div>
 
 <script>
-function openPage(pageName,elmnt,color) {
+function openTab(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("tablink");
+  tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
 
-document.getElementById("defaultOpen").click();
 </script>
 <body>
 <h1>Lake Travis Speech and Debate</h1>
