@@ -1,15 +1,15 @@
 
 h1{
   color: red;
-  font-family:verdana;
+  font-family: helvatica;
 }
 
 h2{
-  font-family: verdana;
+  font-family: helvetica;
 }
 
 p{
-  font-family: verdana;
+  font-family: helvetica;
 }
 
 /* Style the tab */
@@ -29,7 +29,7 @@ p{
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-family: trebuchet;
+  font-family: helvetica;
 }
 
 /* Change background color of buttons on hover */
