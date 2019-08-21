@@ -3,15 +3,17 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=2">
   <link href="styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openTab(event, 'Home')">Home>img src = <</button>
   <button class="tablinks" onclick="openTab(event, 'Our Team')">Our Team</button>
   <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
   <button class="tablinks" onclick="openTab(event, 'Photos')">Photos</button>
   <button class="tablinks" onclick="openTab(event, 'Blogs')">Blogs</button>
+  <button class="tablinks" onclick="openTab(event, 'Resources')">Resources</button>
 </div>
 
 <!-- Tab content -->
@@ -30,6 +32,22 @@
   <p>This is where our contact info goes.</p>
 </div>
 
+<script>
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+</script>
 <body>
 <h1>Lake Travis Speech and Debate</h1>
 <h2>Info</h2>
