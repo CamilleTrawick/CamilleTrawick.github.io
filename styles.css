@@ -1,57 +1,37 @@
-<style>
-h1{
-  color: red;
-  font-family: helvatica;
-}
-
-h2{
-  font-family: helvetica;
-}
-
-p{
-  font-family: helvetica;
-}
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-.tabcontent {
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-/* Style the buttons that are used to open the tab content */
-.tab button {
-   color: white;
-  background-color: red;
+.navbar a {
   float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
   border: none;
   outline: none;
-  cursor: pointer;
+  color: white;
   padding: 14px 16px;
-  transition: 0.3s;
-  font-family: helvetica;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: black;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
+.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
-/* Style the tab content */
-.tabcontent {
+.dropdown-content {
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
-</style>
