@@ -15,10 +15,26 @@ body {margin:0;font-family:Arial}
   font-size: 17px;
 }
 
-.active {
-  background-color: #4CAF50;
-  color: red;
+a:link {
+  background-color: red;
+  font-color: red;
 }
+
+a:visited {
+  background-color: red;
+  font-color: red;
+}
+
+a:active {
+  background-color: red;
+  font-color: red;
+}
+
+.navbar{
+  font-color:red;
+}
+
+
 
 .topnav .icon {
   display: none;
