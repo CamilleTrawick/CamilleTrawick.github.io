@@ -2,7 +2,7 @@ body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
-  background-color: red;
+  color: red;
 }
 
 .topnav a {
@@ -17,12 +17,12 @@ body {margin:0;font-family:Arial}
 
 a:link {
   background-color: red;
-  font-color: red;
+  color: red;
 }
 
 a:visited {
   background-color: red;
-  font-color: red;
+  color: red;
 }
 
 a:active {
@@ -31,7 +31,7 @@ a:active {
 }
 
 .navbar{
-  font-color:red;
+  color:red;
 }
 
 
