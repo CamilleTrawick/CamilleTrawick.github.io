@@ -307,19 +307,20 @@ body {
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: red;
 }
 
 /* Style the tab content */
 .tabcontent {
   float: left;
   padding: 0px 12px;
-  border: 1px solid #ccc;
   width: 70%;
   border-left: none;
-  height: 300px;
+  height: 500px;
 }
 
-
+pre{
+  font-family: helvetica;
+}
 </style>
 
