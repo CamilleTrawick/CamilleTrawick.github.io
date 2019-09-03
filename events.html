@@ -24,26 +24,48 @@
   </div> 
 </select>
 
-<h3>Speech and Debate Events</h3>
-<h4>Lincoln Douglas Debate</h4>
-<p>In this one-on-one format, students debate a topic provided by the Association. Lincoln-Douglas Debate topics range from individual freedom versus the collective good to economic development versus environmental protection. Students may consult evidence gathered prior to the debate but may not use the Internet in round. An entire debate is roughly 45 minutes and consists of constructive speeches, rebuttals, and cross-examination.
+<h2>Speech and Debate Events</h2>
+<p>Click on the buttons inside the tabbed menu to learn more about the events:</p>
 
- 
+<div class="tab">
+  <button class="tablinks" onclick="openEvent(event, 'LD')" id="defaultOpen">Lincoln Douglas Debate</button>
+  <button class="tablinks" onclick="openEvent(event, 'PF')">Public Forum Debate</button>
+  <button class="tablinks" onclick="openEvent(event, 'Congress')">Congressional Debate</button>
+</div>
 
-Considerations for Lincoln-Douglas Debate:
+<div id="LD" class="tabcontent">
+  <h3>Lincoln Douglas Debate</h3>
+  <p>Event description.</p>
+</div>
 
-Lincoln-Douglas Debate typically appeals to individuals who like to debate, but prefer a one-on-one format as opposed to a team or group setting. Additionally, individuals who enjoy LD like exploring questions of how society ought to be. Many people refer to LD Debate as a “values” debate, as questions of morality and justice are commonly examined. Students prepare cases and then engage in an exchange of cross-examinations and rebuttals in an attempt to convince a judge that s/he is the better debater in the round.
+<div id="PF" class="tabcontent">
+  <h3>Public Forum Debate</h3>
+  <p>Event Description.</p> 
+</div>
 
-When considering what event you should choose, or in which direction to point a student when selecting an event. Here are some general traits of successful LD debaters to keep in mind:
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
 
-Independent, 
-Thinks logically,
-Analytical, 
-Intrigued by philosophy, 
-Determined and
-Thoughtful.
-</p>
+<script>
+function openEvent(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
 
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 
 
 
