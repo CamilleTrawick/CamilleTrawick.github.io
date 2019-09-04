@@ -6,7 +6,7 @@ body {
 
 
 a:link {
-  background-color: white;
+  background-color: black;
   color: red;
 }
 
@@ -20,7 +20,7 @@ a:active {
   font-color: red;
 }
 
-.navbar{
+.ul{
   color:red;
 }
 
