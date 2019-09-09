@@ -5,6 +5,7 @@ body {
 
 
 
+
 a:link {
   background-color: black;
   color: red;
@@ -26,9 +27,6 @@ a:active {
 
 
 
-.topnav .icon {
-  display: none;
-}
 
 
 .schedule {
@@ -267,7 +265,7 @@ body {
 /* Style the tab */
 .tab {
   float: left;
-  border: 1px solid #ccc;
+
   background-color: #f1f1f1;
   width: 30%;
   height: 300px;
@@ -294,7 +292,7 @@ body {
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-  background-color: reds;
+  background-color: red;
 }
 
 /* Style the tab content */
