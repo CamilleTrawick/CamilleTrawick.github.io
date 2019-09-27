@@ -66,7 +66,7 @@
 </div>
 
 
-<div id="LD" class="tabcontent">
+<div id="LD" class="">
   <h3>Lincoln Douglas Debate</h3>
   <pre class="schedule">
 In this one-on-one format, students debate a topic provided by the Association. Lincoln-Douglas Debate topics 
@@ -261,7 +261,7 @@ function openEvent(evt, eventName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(eventName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 
